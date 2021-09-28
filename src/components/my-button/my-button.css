@@ -1,0 +1,22 @@
+/* TODO: Add these to the tailwind config so that i am able to access them as utility classes */
+:host {
+  --primary-color: #3C289B;
+  --secondary-color: #ECECEC;
+  --terciary-color: #3B3B3B;
+}
+
+.btn {
+  @apply bg-transparent border-none cursor-pointer font-semibold mx-3 py-2 px-5;
+  @apply flex items-center justify-center;
+}
+
+.btn-primary {
+  @apply text-white;
+  background-color: var(--primary-color);
+}
+
+.btn-secondary {
+  @apply underline;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}

@@ -1,0 +1,13 @@
+.my-card {
+  max-width: 320px;
+  @apply m-3 p-4 bg-white hover:shadow-lg ;
+}
+
+.button-container {
+  @apply flex justify-center;
+}
+
+.my-cards-wrapper {
+  @apply flex flex-wrap my-0 mx-auto justify-center;
+  max-width: 1245px;
+}

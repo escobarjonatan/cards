@@ -1,0 +1,8 @@
+/* TODO: Seems like all of these are font-sans, we could set the app default to font-sans and then overwrite when needed */
+h2 {
+  @apply my-3 font-sans;
+}
+
+p {
+  @apply font-sans my-2 mb-3 text-gray-600;
+}
